@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	
+	Escribir "Ingrese el numero de 3 digitos."
+	Leer num
+	
+	r1 = 	(num % 10) * 100 //300
+	num = trunc(num/10) //12
+	r2 = (num % 10 ) * 10
+	num = trunc(num/10) //1
+	
+	aux = r1 + r2 + num
+	Escribir "El invertido es: ", aux
+	//159
+	div <- 159 / 10 // 15.9
+	modu <- 159 % 10 // 9
+	tru <- Trunc(159/10) // 15
+FinAlgoritmo

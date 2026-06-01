@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese su promedio"
+	Leer promedio
+	Escribir  "Ingrese su asistencia"
+	Leer asistencia
+	
+	Si (Promedio >= 51 Y asistencia >=80) O Promedio >= 90 Entonces
+		Escribir "Aprobo"
+	SiNo
+		Escribir "No aprobo"
+	FinSi
+	
+FinAlgoritmo

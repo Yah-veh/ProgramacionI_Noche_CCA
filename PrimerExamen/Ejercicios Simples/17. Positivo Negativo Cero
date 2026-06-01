@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir 'Ingrese el numero'
+	Leer num
+	Si num>0 Entonces
+		Escribir 'Par'
+	SiNo
+		Si num = 0 Entonces
+			Escribir 'Es 0'
+		SiNo
+			Escribir 'Impar'
+		FinSi
+	FinSi
+FinAlgoritmo

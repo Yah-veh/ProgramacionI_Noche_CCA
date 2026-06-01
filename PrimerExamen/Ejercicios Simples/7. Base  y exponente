@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	//Fun1. Escribir una función de un argumento x que devuelva el cuadrado de x.
+	// Ejemplo. Entrada: 17. Salida: 289.
+	// Ejemplo. Entrada: -6. Salida: 36.
+	
+	Escribir "Ingrese la base"
+	Leer x
+	Escribir "Ingrese el exp"
+	Leer z
+	
+	salida <- x^z
+	
+	Escribir "La potencia cuadrada es: " , salida
+	
+	
+	
+FinAlgoritmo

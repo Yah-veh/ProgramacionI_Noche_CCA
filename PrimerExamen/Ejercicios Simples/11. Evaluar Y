@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el valor de X."
+	Leer x
+	
+	salida <- (3 * x^2) + (2 * x) - 5
+	
+	Escribir "El valor de Y es: " , salida
+FinAlgoritmo

@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el numero de 3 digitos."
+	Leer num // 123
+	
+	entrada = num
+	
+	Si num >= 100 Y num <=999 entonces
+	
+		r1 = 	(num % 10) * 100 //300
+		num = trunc(num/10) //12
+		r2 = (num % 10 ) * 10 // 20
+		num = trunc(num/10) //1
+		
+		aux = r1 + r2 + num // 300 + 20 + 1 = 321
+		
+		si entrada = aux Entonces
+			Escribir "Es capicua"
+		SiNo
+			Escribir "No es"
+		FinSi
+		
+	SiNo
+		Escribir "Ingrese un numero de 3 Digitos"
+	FinSi
+	
+	
+
+	
+FinAlgoritmo

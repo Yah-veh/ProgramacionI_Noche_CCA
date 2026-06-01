@@ -1,0 +1,16 @@
+Algoritmo sin_titulo
+	//Dados dos números enteros, regresar la suma de sus cubos.
+	// Ejemplo. Entrada: 3, -12. Salida: -1701.
+	// Ejemplo. Entrada: 15, -14. Salida: 631
+	
+	Escribir "Ingrese el primer numero"
+	Leer a
+	Escribir "Ingrese el segundo numero"
+	Leer b
+	
+	salida <- a^3 + b^3
+	
+	Escribir "El resultado es: " , salida
+	
+	
+FinAlgoritmo

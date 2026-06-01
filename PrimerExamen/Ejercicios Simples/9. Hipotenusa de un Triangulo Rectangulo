@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	
+	Escribir "Ingrese el cateto A"
+	Leer a
+	Escribir "Ingrese el cateto B"
+	Leer b
+	
+	h = raiz(a^2 + b^2)
+	h1 = (a^2 + b^2)^(1/2)
+	
+	Escribir "La hipotenusa es: " , h
+	Escribir "La hipotenusa es: " , h1
+	
+FinAlgoritmo

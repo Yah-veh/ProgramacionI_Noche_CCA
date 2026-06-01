@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese su edad"
+	Leer edad
+	
+	Si edad>=18 Entonces
+		Escribir "Puede entrar a la fiesta"
+	SiNo
+		Escribir "No ingresa"
+	Fin Si
+	
+	
+	
+FinAlgoritmo

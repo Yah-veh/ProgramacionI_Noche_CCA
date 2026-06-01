@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el digito 1"
+	Leer a
+	Escribir "Ingrese el digito 2"
+	Leer b
+	Escribir "Ingrese el digito 3"
+	Leer c
+	
+	Si	a > b Y a > c Entonces
+		Escribir a
+	SiNo
+		si b> a Y b > c Entonces
+			Escribir b
+		SiNo
+			Escribir c
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+

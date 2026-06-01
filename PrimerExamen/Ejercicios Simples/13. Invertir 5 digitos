@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el numero de 5 digitos"
+	Leer N //54679
+	
+	R = N % 10 // 9
+	A = R * 10 // 90
+	N = trunc(N/10) // 5467
+	
+	R = N % 10 // 7
+	A =  ( A + R)  * 10 // 97
+	N = trunc(N/10) // 546
+	
+	R = N % 10 // 7
+	A =  ( A + R)  * 10 // 97
+	N = trunc(N/10) // 546
+	
+	R = N % 10 // 7
+	A =  ( A + R)  * 10 // 97
+	N = trunc(N/10) // 546
+	
+	R = N % 10 // 7
+	A =  ( A + R) // 97
+	Escribir A
+	
+FinAlgoritmo

@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el primer valor"
+	Leer gatito
+	Escribir "Ingrese el Segundo valor"
+	Leer perrito
+	salida <- gatito + perrito 
+	Escribir "La suma es es es: " , salida
+FinAlgoritmo

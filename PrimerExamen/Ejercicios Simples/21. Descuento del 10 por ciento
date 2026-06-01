@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el monto"
+	Leer monto
+	
+	Si monto > 100 Entonces
+		monto = monto * 0.9	
+		Escribir "El monto con descuento es: " , monto
+	SiNo
+		Escribir "El monto sin descuento es: ", monto
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	Escribir "Cantidad de Articulos."
+	Leer art
+	Escribir "Total de Compra"
+	Leer monto
+	
+	Si art > 5 O monto > 500 Entonces
+		Escribir "Regalo"
+	SiNo
+		Escribir "Nada"
+	FinSi
+FinAlgoritmo
