@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el valor"
+	Leer dinero // 10
+
+	mientras dinero <> 0 Hacer
+		suma = suma + dinero
+		Leer dinero
+		
+	FinMientras
+	Escribir "El total es: ", suma
+FinAlgoritmo
