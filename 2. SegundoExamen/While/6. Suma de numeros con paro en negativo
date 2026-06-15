@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese los numeros"
+	Leer num
+	
+	Mientras num >= 0 Hacer
+		suma = suma + num
+		Escribir "Ingrese los numeros"
+		Leer num
+	FinMientras
+	
+	Escribir "La suma es: ", suma
+FinAlgoritmo
