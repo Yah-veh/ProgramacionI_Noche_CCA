@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	//Imprimir los números del 1 al 10 
+	//en pantalla usando la estructura Mientras
+	
+	i <- 1
+	Mientras i <= 10 Hacer
+		Escribir i
+		i = i + 1
+	FinMientras
+	
+FinAlgoritmo
