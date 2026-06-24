@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el numero inferior"
+	leer inferior
+	Escribir "Ingrese el numero Superior"
+	leer superior
+	
+	mientras inferior <= superior
+		si inferior % 2 = 0
+			Escribir inferior
+		FinSi
+		inferior = inferior + 1
+	FinMientras
+FinAlgoritmo
