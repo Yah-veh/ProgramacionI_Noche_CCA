@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	ClaveCorrecta = 1234
+	intentos = 1
+	Escribir "Ingrese la password"
+	Leer clave
+	
+	Mientras clave <> ClaveCorrecta Y intentos < 3 Hacer
+		Escribir "Password incorrecta. Intente de nuevo"
+		Leer clave
+		intentos = intentos + 1
+	FinMientras
+	
+	Si Clave = ClaveCorrecta
+		Escribir "Bienvenido al Sistema"
+	SiNo
+		Escribir "Acceso denegado."
+	FinSi
+FinAlgoritmo
